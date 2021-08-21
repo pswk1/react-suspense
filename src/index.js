@@ -1,6 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+// import { render } from "react-dom";
+import { createRoot } from "react-dom";
+
+import App from "./App.js";
+
+// render(<App />, document.getElementById("root"));
 
 // concurrent mode
-ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+createRoot(document.getElementById("root")).render(<App />);
